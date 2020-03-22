@@ -15,5 +15,5 @@ conda create -n jupyterlab_1.2.2
 
 
 source activate jupyterlab_1.2.2
-conda install -c conda-forge jupyterlab=1.2.2
-conda install --file requirements.txt
+conda install -y -c conda-forge jupyterlab=1.2.2
+conda install -y --file requirements.txt
