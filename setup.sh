@@ -17,3 +17,5 @@ conda create -n jupyterlab_1.2.2
 source activate jupyterlab_1.2.2
 conda install -y -c conda-forge jupyterlab=1.2.2
 conda install -y --file requirements.txt
+
+### then specific the jupyter version to create the notebook like jupyterlab_1.2.2
